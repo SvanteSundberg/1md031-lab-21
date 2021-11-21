@@ -3,12 +3,14 @@
     <div id="orderList">
       <div v-for="(order, key) in orders" v-bind:key="'order'+key">
         #{{ key }}: {{order.orderItems}}
+        <br>
         <span id="orderInfo">
                     {{ order.details.name}} (
                     {{order.details.email}},
                     {{order.details.gender}},
                     {{order.details.payment}})
                   </span>
+          <hr>
       </div>
       <button v-on:click="clearQueue">Clear Queue</button>
     </div>
@@ -71,7 +73,7 @@ export default {
   height:20px;
   text-align: center;
 }
-orderInfo{
-  font-weight:bold ; 
+#orderInfo{
+  font-style:italic ;
 }
 </style>

@@ -11,15 +11,13 @@
   </p>
   <ul>
   <li>{{burger.kCal+' kCal'}}</li>
-  <li> <span v-if=burger.gluten>
+
+  <li v-if=burger.gluten>
       Contains <span class="ingrediens"> gluten</span>
-      </span>
-      <span v-else> Gluten free </span>
   </li>
-  <li> <span v-if=burger.lactose>
+  <li v-if=burger.lactose>
       Contains <span class="ingrediens"> lactose</span>
-  </span>
-  <span v-else> Lactose free </span>
+
   </li>
 
 </ul>

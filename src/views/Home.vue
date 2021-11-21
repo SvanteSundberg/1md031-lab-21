@@ -27,13 +27,11 @@
      <p>
        <label for="name">Full name:</label><br>
        <input type="text" id="name" v-model="fn" required="required" placeholder="First- and last name">
-       Name is: {{fn}}
      </p>
 
      <p>
        <label for="email">Email adress:</label><br>
        <input type="email" id="email" v-model="em" required="required" placeholder="E-mail address">
-       mail is:{{em}}
      </p>
 <!--
      <p>
@@ -56,7 +54,7 @@
            <option selected="selected">Cash</option>
            <option>Swish</option>
          </select>
-         {{payment}}
+
      </p>
      <p>Select gender:</p>
      <p>
@@ -71,8 +69,6 @@
        <input type="radio" id="other" value="other" v-model="gender" placeholder="Other">
        <label for="other">Other</label>
      </p>
-     gender: {{gender}}
-
 
    </form>
    <p> Select point of delivery: </p>
