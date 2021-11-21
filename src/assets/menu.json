@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Good Fella",
+    "kCal": 100,
+    "lactose": true,
+    "gluten": false,
+    "url": "https://i.pinimg.com/originals/52/0a/ee/520aee8bdf2a520b2968e15ec26807b7.jpg"
+  },
+  {
+    "name": "Ugly Bastard",
+    "kCal": 200,
+    "lactose": false,
+    "gluten": false,
+    "url": "https://media.istockphoto.com/photos/real-life-homemade-burger-what-hamburgers-really-look-like-picture-id927593762?k=20&m=927593762&s=612x612&w=0&h=f0ZXC1kfNmXW2THPSFvPA1Ol6JPdbV5L_0KYP5RQTlc="
+  },
+  {
+    "name": "Big Boy",
+    "kCal": 300,
+    "lactose": true,
+    "gluten": true,
+    "url": "https://thumb.mp-farm.com/7197109/preview.jpg"
+  }
+
+
+]

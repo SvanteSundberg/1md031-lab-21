@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<!-- Your comment goes here -->
+   <head>
+       <title>BurgerWorld</title>
+       <meta charset="utf-8"/>
+       <link rel="stylesheet" type="text/css" href="style.css">
+   </head>
+   <body>
+     <header>
+
+        <img id="logo" class="headline" src="img/flames.jpg">
+        <h1 id="headline"> Welcome to BurgerWorld! </h1>
+     </header>
+     <main>
+       <section id="burgers">
+         <h2> What do you want </h2>
+            <p> What is your choice of bruger? </p>
+        <div class="wrapper">
+          <div class="box">
+            <h3> The good fella</h3>
+            <img src="img/simple_burger.jpg" alt= "Good fella" style="height:100px;" >
+            <ul>
+              <li> <span class="ingrediens">Gluten free </span></li>
+              <li>Environment friendly</li>
+              <li>Very spicy</li>
+            </ul>
+          </div>
+
+          <div class="box">
+            <h3> The ugly bastard</h3>
+            <img src="img/ugly_burger.jpg" alt= "Ugly bastard" style="height:100px; ">
+            <ul>
+            <li>Fluffy potato bread</li>
+            <li><span class="ingrediens">No added sugar</span></li>
+            <li>Simply not good</li>
+          </ul>
+          </div>
+
+          <div class="box">
+            <h3> The big boy</h3>
+            <img src="img/big_burger.jpg" alt= "Big boy" style="height:100px;margin-left: 50px;">
+            <ul>
+          <li>Crispy tomatoes</li>
+          <li> <span class="ingrediens">Lactose free</span></li>
+          <li>All you can beg for</li>
+        </ul>
+
+          </div>
+        </div>
+
+        </section>
+
+        <section id="order"style= "clear:left;">
+          <h2> Customer info </h2>
+            <p> Fill in your information </p>
+
+        <h4> Delivery info</h4>
+        <form>
+        <p>
+          <label for="name">Full name:</label><br>
+          <input type="text" id="name" name="fn" required="required" placeholder="First- and last name">
+        </p>
+
+        <p>
+          <label for="email">Email adress:</label><br>
+          <input type="email" id="email" name="em" required="required" placeholder="E-mail address">
+        </p>
+
+        <p>
+          <label for="street">Street:</label><br>
+          <input type="text" id="street" name="street" required="required" placeholder="Street adress">
+        </p>
+
+        <p>
+          <label for="housenumber">House:</label><br>
+          <input type="number" id="housenumber" name="house" required="required" placeholder="House number">
+        </p>
+
+        <p>
+          <label for="payment">Payment:</label><br>
+            <select id="payment" name="payment">
+              <option>Debit</option>
+              <option>Kredit</option>
+              <option selected="selected">Cash</option>
+              <option>Swish</option>
+            </select>
+        </p>
+        <p>Select gender:</p>
+        <p>
+          <input type="radio" id="male" name="gender" required="required" placeholder="Male">
+          <label for="male">Male</label>
+        </p>
+        <p>
+          <input type="radio" id="female" name="gender" required="required" placeholder="Female">
+          <label for="female">Female</label>
+        </p>
+        <p>
+          <input type="radio" id="other" name="gender" required="required" placeholder="Other">
+          <label for="other">Other</label>
+        </p>
+      </form>
+        </section>
+        <button type="submit">
+          <img src="img/smiley.jpg" style= "width: 30px;">
+          Order!
+        </button>
+      </main>
+      <hr>
+      <footer>
+          &copy; svante inc
+        </footer>
+      </hr>
+
+    </body>
+</html>
